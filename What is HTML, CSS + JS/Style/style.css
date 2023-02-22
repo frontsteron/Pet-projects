@@ -1,1 +1,6 @@
-﻿
+﻿/* Everything between the starting and ending tags will be a comment */
+
+body {  /* selector */
+	font-family/* feature */: Arial/* meaning */; /* - set of properties */
+	background-color: #084329; /* background color of the body tag */
+} 
