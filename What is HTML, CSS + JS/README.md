@@ -87,4 +87,4 @@ hashtag {
 ```
 Элементы на веб-странице - это прямоугольные блоки с четырмя слоями: содержимое(*content*), отступы(*padding*), границы(*border*), поля(*margin*).
 
-<img src="https://github.com/frontsteron/Pet-projects/blob/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Img/CSSBoxModel.png" alt="CSS Box Model image" width="4Ы00"/>
+<img src="https://github.com/frontsteron/Pet-projects/blob/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Img/CSSBoxModel.png" alt="CSS Box Model image" width="400"/>
