@@ -1,6 +1,9 @@
 ﻿/* Everything between the starting and ending tags will be a comment */
 
+html {
+	font-family/* feature(style attribute) */: Bebas Neue; /* meaning(the value of the style attribute) */; /* - set of properties(style description) */
+}
+
 body {  /* selector */
-	font-family/* feature(style attribute) */: Arial/* meaning(the value of the style attribute) */; /* - set of properties(style description) */
-	background-color: #084329; /* background color of the body tag */
+	background-color: #203141; /* background color of the body tag */
 }
