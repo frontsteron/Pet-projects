@@ -6,4 +6,16 @@ html {
 
 body {  /* selector */
 	background-color: #203141; /* background color of the body tag */
+	text-align: center;	/* text align */
+}
+
+h1 {
+	margin: 40px 30px 30px 30px;	/* sets the amount of the outer margin from each edge of the element in one ad */
+	border-radius: 0 30px 30px 0;	/* allows you to define the shape of the borders of the element */	
+}
+
+nav, form {
+	margin: 40px 30px 30px 30px;
+	border-radius: 0 30px 30px 0;
+	font-size: 20px;	/* sets the font size of the element */
 }
