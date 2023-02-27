@@ -36,7 +36,7 @@
 ```html
 <head>
    <meta charset="UTF-8"> <!-- лучше указать кодировку UTF-8 -->
-   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- для поддержки старых браузеров можно использовать эти метаданные -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- для поддержки старых браузеров -->
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- контроль масштаба отображения страницы, величина независящая от разрешения экрана -->
 </head>
 ```
@@ -85,3 +85,18 @@ hashtag {
 ### Элементы на веб-странице - это прямоугольные блоки с четырмя слоями: содержимое(*content*), отступы(*padding*), границы(*border*), поля(*margin*).
 
 <img src="https://github.com/frontsteron/Pet-projects/blob/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Img/CSSBoxModel.png" alt="CSS Box Model image" width="1200"/>
+
+# Что такое JavaScript?
+
+###  Это динамический скриптовый язык программирования, который используют разработчики для создания интерактивных веб-страниц.
+
+### Подключаем скриптовый файл(*JS*) внизу страницы(*в конце тега body*). Делаем отдельный файл чтобы не нагружать html документ.
+
+```html
+<body>
+   <!-- множество разных тегов -->
+   <script src="script.js"></script>
+</body>
+```
+
+### В нем есть 2 переменные: **let** и **const** для хранения данных.
