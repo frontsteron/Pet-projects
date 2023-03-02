@@ -84,7 +84,7 @@ hashtag {
 ```
 ### Элементы на веб-странице - это прямоугольные блоки с четырмя слоями: содержимое(*content*), отступы(*padding*), границы(*border*), поля(*margin*).
 
-<img src="https://github.com/frontsteron/Pet-projects/blob/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Img/CSSBoxModel.png" alt="CSS Box Model image" width="1200"/>
+<img src="https://github.com/frontsteron/Pet-projects/blob/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Img/CSSBoxModel.png" alt="CSS Box Model image" width="800"/>
 
 # Что такое JavaScript?
 
@@ -103,7 +103,7 @@ hashtag {
 
 ### А по умолчанию мы нужно использовать **const**, где при желании используем ВЕРХНИЙ_РЕГИСТР и snake_case.
 
-### При необходимости обновить значение переменной **let**, обновляем её через простое равно(*оператор assign*(*=*)).
+### При необходимости обновить значение переменной **let**, обновляем её через простое равно(*оператор assign*(*=*)). *PS. Обновить переменную **const** мы не можем, а **String** - это то, что начинается и заканчивается двойными кавычками.*
 
 ```JavaScript
 let age = 20
@@ -111,4 +111,40 @@ age = 30
 age = 40
 ```
 
-### **String** - это то, что начинается и заканчивается двойными кавычками.
+### Типы данных:
+
+```JavaScript
+// String: представляет строку
+let single = 'Single quoted';
+let double = "Double quoted";
+
+// Number: представляет числовое значение
+const int = 7
+const decimal = 0.202
+const sameDecimal = .202
+
+// Boolean: представляет логическое значение true или false
+// Первый способ
+const truthyValue = true // Истина
+const falsyValue = false // Ложь
+
+// Втрой спсособ
+const truthyValue = Boolean(1) // Истина
+const falsyValue = Boolean('') // Ложь
+
+// Undefined: представляет одно специальное значение - undefined и указывает, что значение не установлено
+let name
+
+console.log(name) // undefined, так как значение не присвоили/отсутствует у переменной name
+
+// Null: представляет отсутствие значения
+const password = null
+
+// Symbol: представляет уникальное значение, которое часто применяется для обращения к свойствам сложных объектов
+const symOne = Symbol()
+const symTwo = Symbol()
+
+console.log(symOne === symTwo) // false
+
+// И Object: представляет комплексный объект! Но о нём немножечко позже
+```
