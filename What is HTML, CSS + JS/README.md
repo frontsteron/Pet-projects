@@ -119,32 +119,38 @@ let single = 'Single quoted';
 let double = "Double quoted";
 
 // Number: представляет числовое значение
-const int = 7
-const decimal = 0.202
-const sameDecimal = .202
+const int = 7;
+const decimal = 0.202;
+const sameDecimal = .202;
 
 // Boolean: представляет логическое значение true или false
 // Первый способ
-const truthyValue = true // Истина
-const falsyValue = false // Ложь
+const truthyValue = true; // Истина
+const falsyValue = false; // Ложь
 
 // Втрой спсособ
-const truthyValue = Boolean(1) // Истина
-const falsyValue = Boolean('') // Ложь
+const truthyValue = Boolean(1); // Истина
+const falsyValue = Boolean(''); // Ложь
 
 // Undefined: представляет одно специальное значение - undefined и указывает, что значение не установлено
-let name
+let name;
 
-console.log(name) // undefined, так как значение не присвоили/отсутствует у переменной name
+console.log(name); // undefined, так как значение не присвоили/отсутствует у переменной name
 
 // Null: представляет отсутствие значения
-const password = null
+const password = null;
 
 // Symbol: представляет уникальное значение, которое часто применяется для обращения к свойствам сложных объектов
-const symOne = Symbol()
-const symTwo = Symbol()
+const symOne = Symbol();
+const symTwo = Symbol();
 
-console.log(symOne === symTwo) // false
+console.log(symOne === symTwo); // false
 
 // И Object: представляет комплексный объект! Но о нём немножечко позже
+```
+### Имена переменных и функций в JavaScript начинаются с буквы, $ или символа подчеркивания, могут даже содержать эмодзи или иероглифы! А регистр букв имеет значение.
+
+### Вот зарезервированные слова, которые нельзя использовать в названиях имен
+```JavaScript
+break, do, instanceof, typeof, case, else, new, var, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
 ```
