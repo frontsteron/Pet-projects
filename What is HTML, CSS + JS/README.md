@@ -50,13 +50,13 @@
 
 ### Вот так выглядит размертка(*описание стиля*).
 
-```
-селектор {
+```CSS
+селектор {  /* Комментарий */
    атрибут(свойство): значение; - это всё правило
 }
 ```
 ### Базовые селекторы:
-```
+```CSS
 /* Селектор по имени тега */
 hashtag {
    атрибут: значение;
@@ -154,3 +154,55 @@ console.log(symOne === symTwo); // false
 ```JavaScript
 break, do, instanceof, typeof, case, else, new, var, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
 ```
+
+## Операторы:
+## **=** - оператор присваивания;
+---
+## Операторы присваивания и арифметических действий:
+### **+=** – для прибавления значения;
+
+### **-=** – вычесть правое значение из левого;
+
+### ***=** – умножить на операнд(*аргумент операции/данные, которые обрабатываются командой*);
+
+### **/=** – разделить и записать значение в правый операнд.
+## Пример:
+```JavaScript
+let one = 1;
+let two = 2;
+two += one; // 3
+
+let three = 3;
+three -= one; // 2
+
+let four = 4;
+four *= two; // 8
+
+let eight = 8;
+eight /= two; // 4
+ 
+console.log(two, three, four, eight); // 3 2 8 4
+```
+---
+## Присваивание с битовыми операциями:
+
+### **AND** (**&=**) – побитовое "И" выполняет "И" с каждым битом правого и левого операнда, записывая значение в правый операнд;
+
+### **XOR** (**^=**) – побитовое исключающее "ИЛИ" по аналогии выполняет побитно исключающее "ИЛИ", результат в правом операнде;
+
+### **OR** (**|=**) – побитовое "ИЛИ".
+## Пример:
+```JavaScript
+let and = 101; 
+and &= 100;
+console.log(and); // 100
+
+let xor = 101; 
+xor ^= 10; 
+console.log(xor); // 111
+
+let or = 100; 
+or |= 10; 
+console.log(or); // 110
+```
+---
