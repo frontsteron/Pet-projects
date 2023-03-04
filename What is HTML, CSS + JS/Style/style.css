@@ -10,12 +10,15 @@ body {  /* selector */
 }
 
 h1 {
+	font-size: 100px;
 	margin: 40px 30px 30px 30px;	/* sets the amount of the outer margin from each edge of the element in one ad */
 	border-radius: 0 30px 30px 0;	/* allows you to define the shape of the borders of the element */	
+	color: beige;
 }
 
 nav, form {
 	margin: 40px 30px 30px 30px;
-	border-radius: 0 30px 30px 0;
-	font-size: 20px;	/* sets the font size of the element */
+	border-radius: 5px;
+	font-size: 22px;	/* sets the font size of the element */
+	border: solid 3px black;
 }
