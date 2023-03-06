@@ -264,6 +264,7 @@ console.log('2' === 2); // false
 ### **&&** – оператор "и", возвращает true только в том случае, если оба элемента true, иначе – false.
 ### **!** – оператор "не". Инверсия элемента(*при true – вернет false*)
 
+### Пример:
 ```JavaScript
 let a = true;
 let b = 0; // false
@@ -271,5 +272,16 @@ let b = 0; // false
 console.log(a && b); // 0
 console.log(b || a); // true
 console.log(!b); // true
+```
+---
+## Строковые операторы
+
+### Операция сложения применима к строковым типам данных для объединения операндов в одну строку. 
+
+### Пример:
+```JavaScript
+let string_1 = 'Hello';
+let string_2 = 'world';
+console.log(string_1+' '+string_2+'!'); // Hello world!
 ```
 ---
