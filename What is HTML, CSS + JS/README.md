@@ -49,7 +49,6 @@
 </head>
 <!-- либо если не подключать файл стилей, то можно таким образом писать в любом теге с атрибутом style прямо в html <tag style="property: value"> </tag>  -->
 ```
-### Либо пишем стили в теге html атрибут style.
 
 ### Вот так выглядит размертка(*описание стиля*).
 
@@ -164,13 +163,13 @@ console.log(symOne === symTwo); // Ложь
 ```JavaScript
 break, do, instanceof, typeof, case, else, new, var, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
 ```
-### А имена переменных пишем в CamelCase синтаксической форме.
+### А имена переменных пишем в camelCase синтаксической форме.
 
 ## Операторы:
 + ## **=** - оператор присваивания;
 ---
 ## Арифметические операторы:
-+ ### **+** - сложение
++ ### **+** - сложение/конкатинация
 + ### **-** - вычитание
 + ### * - множение
 + ### **/** - деление
