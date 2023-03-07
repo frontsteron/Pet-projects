@@ -300,4 +300,8 @@ console.log(string_1+' '+string_2+'!'); // Hello world!
 ###   // Циклы(for(i=0; i<10; i++){..})
 ### }
 ---
-## Алгоритмы(*soon..*)
+## [Алгоритмы](https://github.com/frontsteron/Pet-projects/tree/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Algorithms)
+---
+
+## [Система контроля версий(Git)](https://github.com/frontsteron/Pet-projects/tree/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Git)
+---
