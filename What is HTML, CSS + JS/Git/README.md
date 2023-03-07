@@ -50,3 +50,7 @@ git checkout master // возвращаемся на ветку master
 git reset HEAD(либо hash) file.txt
 git checkout file.txt
 ```
+* ## Отмена коммита
+```Git
+git revert HEAD // возарщаемся к последнему коммиту в нашей ветке
+```
