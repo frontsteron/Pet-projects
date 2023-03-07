@@ -295,10 +295,12 @@ console.log(string_1+' '+string_2+'!'); // Hello world!
 ```
 ---
 ## Условия
-### if(a<b)/else {
-###   // Функция + массивы + объекты(свойства и методы)
-###   // Циклы(for(i=0; i<10; i++){..})
-### }
+```JavaSrcipt
+ if(a<b)/else {
+// Функция + массивы + объекты(свойства и методы)
+// Циклы(for(i=0; i<10; i++){..})
+}
+```
 ---
 ## [Алгоритмы](https://github.com/frontsteron/Pet-projects/tree/main/What%20is%20HTML%2C%20CSS%20%2B%20JS/Algorithms)
 ---
