@@ -39,3 +39,9 @@ git log // история коммитов
 git log --pretty=oneline // история в одну строку
 ```
 ---
+## Возвращение к коммиту
+```Git
+git checkout *hash from the commit histor*
+git checkout master // возвращаемся на ветку master
+```
+---
