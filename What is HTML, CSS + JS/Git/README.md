@@ -45,3 +45,8 @@ git checkout *hash from the commit histor*
 git checkout master // возвращаемся на ветку master
 ```
 ---
+* ## Отмена индексации
+```Git
+git reset HEAD(либо hash) file.txt
+git checkout file.txt
+```
