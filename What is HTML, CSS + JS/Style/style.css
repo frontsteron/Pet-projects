@@ -1,6 +1,6 @@
 ﻿/* Everything between the starting and ending tags will be a comment */
 
-html {
+body {
 	font-family/* feature(style attribute) */: Bebas Neue; /* meaning(the value of the style attribute) */; /* - set of properties(style description) */
 }
 
@@ -21,4 +21,13 @@ nav, form {
 	border-radius: 5px;
 	font-size: 22px;	/* sets the font size of the element */
 	border: solid 3px black;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.content {
+	max-width: 900px;
+	margin: auto;
 }
