@@ -66,7 +66,10 @@
 		<strong></strong> or <b></b> <!-- жырный текст, strong - значимый -->	
 		<em></em> or <i></i> <!-- курсив, em - значимый -->	
 			<p></p> <!-- абзац/текст где нет других тегов, общий елемент, не имеющий абсолютного/конкретного значения и если 2 тега, то начинается с новой строки -->
-			<a href="link"></a> <!-- ссылка -->
+			<a href="link" target="_blank"></a> <!-- ссылка на новую вкладку -->
+			<a href="link" target="#ID"></a> <!-- ссылка на ID в html -->
+			<a href="tel:+79999999999"></a> <!-- наберет телефон -->
+			<a href="mailto:frontsteron@gmail.com"></a> <!-- письмо на почту -->
 		<details><\details> <!-- сводка/краткое изложение -->  
 		<summary><\summary> <!-- сводка/краткое изложение -->
 		<em></em> <!-- выделение текста курсивом/акцент на тексте -->
@@ -75,13 +78,13 @@
 		<strong></strong> <!-- важный текст -->
 		<form></form> <!-- формы -->
 			<input type="name for people" placeboard="name for brawser"></input><!-- формы -->
-			<button></button> <!-- кнопки -->
+		<button autofocus></button> <!-- кнопки -->
 		<time></time> <!-- вместо p -->
 		<address class=""></address> <!-- информация об авторе данного сайта -->
 		<fieldset></fieldset> <!-- поле -->
 		<legend></legend> <!-- название полей -->
 		<input type=search placeholder="Указывает сожидаемое значение для ввода"> <!-- Выводит текст внутри поля формы, который исчезает при получении фокуса, а Password делает текст скрытым-->
-      <footer></footer> <!-- поддон страницы/контент внизу страницы(2) -->
+	<footer></footer> <!-- поддон страницы/контент внизу страницы(2) -->
 			<ol></ol> <!-- упорядоченный список(order list) -->
 			<ul></ul> <!-- не упорядоченный список(unorder list) -->
 				<li></li> <!-- элемент списка(list item) -->
@@ -89,6 +92,8 @@
 					<hr> <!-- горизонтальная линия -->
 					<i> <!-- курсив -->
 					<img src="https: or C:\Users\*.jpg" alt="пишем, что изображено(экранный диктор озвучивает)"> <!-- добавляет изображение -->
+					<audio src="https: or C:\Users\*.mp3" controls loop> <!-- добавляет аудио -->
+					<video src="https: or C:\Users\*.webm" width="" controls mute poster=""> <!-- добавляет видео -->
 					<picture></picture> <!-- структура изображения -->
 					<source media="(условие)" srcset="link">
 					<figure><\figure> <!-- групирует изображение и текст(img + figcaption) -->
