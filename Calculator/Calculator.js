@@ -1,26 +1,23 @@
-﻿// функция для сложения
-function add(a, b) {
-   return a + b;
- }
- 
- // функция для вычитания
- function subtract(a, b) {
-   return a - b;
- }
- 
- // функция для умножения
- function multiply(a, b) {
-   return a * b;
- }
- 
- // функция для деления
- function divide(a, b) {
-   if (b === 0) {
-     return "На ноль делить нельзя!"; // обработка ошибки деления на 0
-   }
-   return a / b;
- }
- 
- // пример использования
- let result = divide(10, 2); // результат будет 5
- console.log(result);
+﻿		function add() {
+			let num1 = parseFloat(document.getElementById("num1").value);
+			let num2 = parseFloat(document.getElementById("num2").value);
+			document.getElementById("result").innerHTML = num1 + num2;
+		}
+
+		function subtract() {
+			let num1 = parseFloat(document.getElementById("num1").value);
+			let num2 = parseFloat(document.getElementById("num2").value);
+			document.getElementById("result").innerHTML = num1 - num2;
+		}
+
+		function multiply() {
+			let num1 = parseFloat(document.getElementById("num1").value);
+			let num2 = parseFloat(document.getElementById("num2").value);
+			document.getElementById("result").innerHTML = num1 * num2;
+		}
+
+		function divide() {
+			let num1 = parseFloat(document.getElementById("num1").value);
+			let num2 = parseFloat(document.getElementById("num2").value);
+			document.getElementById("result").innerHTML = num1 / num2;
+		}
