@@ -4,11 +4,19 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="img/calc.ico" type="image/x-icon">
    <link rel="stylesheet" href="style.css">
    <title>Calculator</title>
 </head>
 <body>
-   <script src="Calculator.js"></script>
+	<input type="text" id="num1" placeholder="Enter first number">
+	<input type="text" id="num2" placeholder="Enter second number">
+	<br><br>
+	<button onclick="add()">Add</button>
+	<button onclick="subtract()">Subtract</button>
+	<button onclick="multiply()">Multiply</button>
+	<button onclick="divide()">Divide</button>
+	<br><br>
+	Result: <span id="result"></span>
 </body>
 </html>
