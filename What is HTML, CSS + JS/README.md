@@ -124,7 +124,8 @@
 <head>
    <link rel="stylesheet" href="Style/style.css">
 </head>
-<!-- либо если не подключать файл стилей, то можно таким образом писать в любом теге с атрибутом style прямо в html <tag style="property: value"> </tag>  -->
+<!-- либо если не подключать файл стилей, то можно таким образом писать в любом теге с атрибутом style прямо в html <tag style="property: value"> </tag> и когда
+нет слэша(/) - это относительный путь, когда есть - это абсолютный путь(относительно текущего доменного имени/файловой системы)  -->
 ```
 
 ### Вот так выглядит размертка(*описание стиля*).
@@ -188,6 +189,7 @@ tag {
    <script src="script.js"></script>
 </body>
 ```
+### Или пишем в теге **head**, но с атрибутом **defer**, тогда JS скрипт выполнится когда будет загружены/созданы все теги(*более современный вариант*).
 
 ## В нем есть 2 переменные: **let** и **const** для хранения данных. *PS. До пременной **let** использовали **var**, но сейчас она является устаревшей, вместо неё сейчас используем **let***.
 
@@ -245,6 +247,14 @@ console.log(symOne === symTwo); // Ложь
 break, do, instanceof, typeof, case, else, new, var, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
 ```
 ### А имена переменных пишем в camelCase синтаксической форме.
+---
+## Методы/фунуции:
+```JavaScript
+alert(''); // Выводит сообщение с одной кнопкой
+confirm(''); // Выводит сообщение с 2мя кнопками
+promt(''); // Вводим данные с 2мя кнопкми
+
+```
 
 ## Операторы:
 + ## **=** - оператор присваивания;
