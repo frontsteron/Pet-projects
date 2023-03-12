@@ -5,7 +5,7 @@ body {
 }
 
 body {  /* selector */
-	background-color: #203141; /* background color of the body tag */
+	background: linear-gradient(to right, #000100, #203141); /* background color of the body tag */
 	text-align: center;	/* text align */
 }
 
