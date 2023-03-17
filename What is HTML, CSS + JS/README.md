@@ -217,9 +217,13 @@ flexbox /* набор свойств, используемых для управ
 	<!-- множество разных тегов -->
 	<script src="script.js"></script>
 </body>
-<!--  Или пишем в теге head, но с атрибутом defer, тогда JS скрипт выполнится когда будет загружены/созданы все теги(более современный вариант) -->
+<!--  Или пишем в теге head, но с атрибутом defer, тогда JS скрипт выполнится когда будут загружены/созданы все теги(более современный вариант) -->
 ```
 ---
+### Имена переменных и функций в **JavaScript** начинаются с буквы, $ или символа подчеркивания, могут даже содержать эмодзи или иероглифы, а регистр букв имеет значение. А вот зарезервированные слова, которые нельзя использовать в названиях имен:
+```JavaScript
+break, do, instanceof, typeof, case, else, new, let, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
+```
 
 ## В JavaScript есть следующие типы данных(*пишем их в camelCase*):
 * **number** - числовой тип данных (*целые и дробные числа*).
@@ -266,7 +270,7 @@ const symTwo = Symbol();
 console.log(symOne === symTwo); // Ложь
 ```
 ## Так же в JS есть следущии типы данных:
-### Есть **let** и **const** для хранения данных. *PS. До пременной **let** использовали **let**, но сейчас она является устаревшей, вместо неё сейчас используем **let***.
+### Есть **let** и **const** для хранения данных. *PS. До пременной **let** использовали **var**, но сейчас она является устаревшей, вместо неё сейчас используем **let***.
 
 ### А по умолчанию нужно использовать **const**.
 
@@ -417,20 +421,11 @@ console.log(sum);
 ### *Директива **break** может быть использована в любом из этих типов циклов для прерывания работы цикла при определенных условиях.*
 ---
 ---
-### Имена переменных и функций в JavaScript начинаются с буквы, $ или символа подчеркивания, могут даже содержать эмодзи или иероглифы! А регистр букв имеет значение.
-
-
-### А имена переменных пишем в camelCase синтаксической форме.
----
 ## Методы/фунуции:
 ```JavaScript
 alert(''); // Выводит сообщение без поля ввода
 confirm(''); // Выводит сообщение с 2мя кнопками
 promt(''); // Вводим данные с дает 2 кнопки
-```
-### А вот зарезервированные слова, которые нельзя использовать в названиях имен:
-```JavaScript
-break, do, instanceof, typeof, case, else, new, let, catch, finally, return, void, continue, for, switch, while, debugger, function, this, with, default, if, throw, delete, in, try, class, enum, extends, super, const, export, import, implements, let, private, public, interface, package, protected, static, yield
 ```
 
 ## Операторы:
