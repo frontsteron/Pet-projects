@@ -196,3 +196,13 @@ git push origin --delete <tagname> // внешний
 ```Git
 git checkout -b <branch_name> v3.4
 ```
+
+* ## Ускоряем работу с Git
+### Если вы не хотите печатать каждую команду для **Git** целиком, вы легко можете настроить псевдонимы (*alias*) для любой команды с помощью **git config**. Вот несколько примеров псевдонимов, которые вы, возможно, захотите задать:
+```Git
+git config --global alias.ch checkout
+git config --global alias.br branch
+git config --global alias.cm commit
+git config --global alias.st status
+```
+### Это означает, что, вместо ввода **git commit**, вам достаточно набрать только **git cm**. По мере освоения **Git** вам, вероятно, придётся часто пользоваться и другими командами. В этом случае без колебаний создавайте новые псевдонимы.
