@@ -185,7 +185,14 @@ git tag v3.4-lw
 git push origin <tagname>
 ```
 
-### Удаление тегов
+### Удаление тегов из локальных и из внешних репозиториев
 ```Git
-git tag -d <tagname>
+git tag -d <tagname> // локальный
+
+git push origin --delete <tagname> // внешний
+```
+
+### Переход на тег
+```Git
+git checkout -b <branch_name> v3.4
 ```
