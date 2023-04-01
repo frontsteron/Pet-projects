@@ -405,17 +405,57 @@ console.log(typeof new Object); // "object"
 ```
 | значение | typeof |
 | ----- | ------ |
-| `undefined` | `"undefined"` |
-| `null` | `"object"` |
-| `true` or `false` | `"boolean"` |
-| all numbers or `NaN` | `"number"` |
-| all strings | `"string"` |
-| all symbols | `"symbol"` |
-| all functions | `"function"` |
-| all arrays | `"object"` |
-| native objects | `"object"` |
+| `undefined` | `'undefined'` |
+| `null` | `'object'` |
+| `true` or `false` | `'boolean'` |
+| all numbers or `NaN` | `'number'` |
+| all strings | `'string'` |
+| all symbols | `'symbol'` |
+| all functions | `'function'` |
+| all arrays | `'object'` |
+| native objects | `'object'` |
 | host objects | зависит от реализации |
-| other objects | `"object"` |
+| other objects | `'object'` |
+---
+## Преобразование типов
+* ### Для конвертации различных типов данных в **число(*number*)**, используется встроенная в JS функция **Number()**.
+
+### Пример:
+```JavaScript
+const yearBirth = '1991' // 1991(string)
+
+console.log(Number(yearBirth)); // 1991(number)
+console.log(Number(yearBirth) + 32); // 2023(number)
+console.log('19' - '9' - 1); // 9(number)
+console.log('16' * '2'); // 32(number)
+console.log('64' / '2'); // 32(number)
+
+console.log(Number('Denis')); // NaN
+```
+### Например, если к числу добавить строку, то строка будет преобразована к числу и выполнится операция сложения. Например:
+
+* ### Для конвертации различных типов данных в **строку(*string*)**, используется встроенная метод **toString()/String()**.
+
+### Пример:
+```JavaScript
+let num = 31; // 31(number)
+
+let str = num.toString(); // 31(string)
+console.log(num); // 31(string)
+
+let str = num + ""; // 31(string)
+console.log(num + 1991); // 311991(string)
+
+console.log('19' + '9' + 1); // 1991(string)
+
+let value = 123;
+let str = String(value); // 123(string)
+
+let bool = true/false;
+let str = bool.toString(); // true/false
+```
+
+### Но, помните, что оператор конкатенации и метод `toString()` могут привести к неожиданным результатам, если вы не уверены в типе данных, который вы пытаетесь преобразовать. В этом случае, лучшей практикой является использование явного преобразования с помощью функции `String()`.
 
 ---
 
