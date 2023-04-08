@@ -190,9 +190,10 @@ git remote rename <old_name> <new_name>
 git remote rm
 ```
 ---
-* ## Создаем ветку, переходим в неё и удаляем
+* ## Создаем/переименовываем ветку, переходим в неё и удаляем
 ```Shell
 git branch <branch_name> # создает
+git branch -m <branch_name> <branch_rename> # переименовывает ветку branch_name в branch_rename
 git checkout -b <branch_name> # переключение к ней
 git branch -d <branch_name> # удаляет локальную
 git push origin --delete <branch_name> # удаляет удаленную
