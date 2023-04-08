@@ -193,6 +193,7 @@ git remote rm
 * ## Создаем/переименовываем ветку, переходим в неё и удаляем
 ```Shell
 git branch <branch_name> # создает
+git branch -M <branch_name> # создаем и переходим на ветку <branch_name>
 git branch -m <branch_name> <branch_rename> # переименовывает ветку branch_name в branch_rename
 git checkout -b <branch_name> # переключение к ней
 git branch -d <branch_name> # удаляет локальную
@@ -201,7 +202,7 @@ git push origin --delete <branch_name> # удаляет удаленную
 ---
 * ## Отправка ветки на удаленный репозиторий
 ```Shell
-git push -u origin new_branch
+git push -u origin <new_branch> # публикации локальных изменений в удаленный репозиторий основной ветви
 git push --delete origin existing_branch # удаление удалённой ветки
 ```
 ---
