@@ -62,6 +62,8 @@ git remote remove origin # отключает удаленный репозит�
 git push <remote-name> <branch-name>
 # например
 git push -u origin <branch>
+# или
+git push --set-upstream origin <branch>
 ```
 
 * ## Получение изменений из удалённого репозитория
