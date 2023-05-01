@@ -210,7 +210,7 @@ hashtag {
 }
 
 /* Событийные селекторы */
-.hashtag:hover {
+.hashtag:hover/focus/active { /* hover - при наведении, focus - фокус при использовании клавиатуры, active - при нажатии */
    атрибут: значение;
 }
 
