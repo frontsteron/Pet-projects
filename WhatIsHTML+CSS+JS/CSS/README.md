@@ -110,3 +110,5 @@ text-decoration: none; /* убираем нижнее подчеркивание
            }
 }
 ```
+## Для практики есть онлайн-тренажер: [FLEXBOX FROGGY](https://flexboxfroggy.com/#ru).
+---
