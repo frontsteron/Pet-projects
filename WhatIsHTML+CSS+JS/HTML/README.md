@@ -82,7 +82,7 @@
   <abbr></abbr> <!-- аббревиатура -->
   <blockquote></blockquote> <!-- развернутая циатата -->
   <form></form> <!-- формы, значение block -->
-  <button autofocus></button> <!-- кнопки -->
+  <button autofocus onclick></button> <!-- кнопки, атрибут onclick используется для определения JavaScript-кода, который должен выполниться, когда происходит клик (щелчок) на определенном элементе -->
   <time></time> <!-- вместо p -->
   <address class=""></address> <!-- информация об авторе данного сайта -->
   <fieldset></fieldset> <!-- поле -->
