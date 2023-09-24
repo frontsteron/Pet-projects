@@ -232,6 +232,7 @@
 
 ```vue
 <template>
+  <!-- HTML-разметка компонента -->
   <div>
     <h1>Hello Vue CLI!</h1>
     <p>{{ message }}</p>
@@ -239,6 +240,7 @@
 </template>
 
 <script>
+// JavaScript-логика компонента
 export default {
   data() {
     return {
@@ -249,7 +251,7 @@ export default {
 </script>
 
 <style>
-/* Здесь можно определить стили для компонентов */
+/* Стили компонента */
 </style>
 ```
 
