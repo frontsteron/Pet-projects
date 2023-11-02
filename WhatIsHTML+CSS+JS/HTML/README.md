@@ -205,3 +205,43 @@ class class_1
 ```
 
 ### Полученный код от нашей страницы можно проверять на различные ошибки здесь: [W3C - validator](https://validator.w3.org/).
+
+## БЭМ - HTML
+
+### Пример блока:
+
+    ```html
+    <div class="header">
+        <!-- Внутренние элементы блока "header" -->
+    </div>
+    ```
+
+### Пример кэлемента:
+
+    ```html
+    <div class="header">
+        <div class="header__logo"></div>
+        <div class="header__menu"></div>
+    </div>
+    ```
+
+### Пример моддификатора:
+
+    ```html
+    <div class="header header--dark">
+        <!-- Внутренние элементы блока "header" -->
+    </div>
+    <div class="button button--large">
+        Крупная кнопка
+    </div>
+    ```
+
+### Пример использования класса `d-flex` в Bootstrap:
+
+```html
+<div class="d-flex">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</div>
+```
